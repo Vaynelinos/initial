@@ -1,0 +1,57 @@
+.gridy{
+    display: grid;
+    grid-gap: 10%;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2 , 10vw);
+    grid-template-areas:
+    ' oni bard priestess '
+    ' general wanderer firecracker '
+    ;
+}
+
+.img {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    padding: 5em;
+}
+
+#oni {
+    grid-area: oni;
+}
+
+#bard {
+    grid-area: bard;
+}
+
+#priestess {
+    grid-area: priestess;
+}
+
+#general {
+    grid-area: general;
+}
+
+#wanderer {
+    grid-area: wanderer;
+}
+
+#firecracker {
+    grid-area: firecracker;
+}
+
+.coolbtn {
+    background-color: #030303;
+    color: #fff;
+    display: block;
+    margin: auto;
+    max-width: 250px;
+}
+
+.coolbtn:hover{
+    background-color:#f0e80c;
+}

@@ -1,0 +1,88 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.sectionLight {
+    background-color: #eceeef;
+    padding: 2em;
+}
+
+.carousel-caption {
+    color: #037ffc;
+}
+
+.sectionDark {
+    background-color: black;
+    padding: 2rem;
+}
+
+.wrapper {
+    margin-top: 20px;
+}
+
+button.coolbtn {
+    background-color: #f0e80c;
+    display: block;
+    margin: auto;
+}
+
+.coolbtn:hover {
+    background-color: #d1ca08;
+}
+
+h5.modal-title {
+    padding: 0 0 0 130px;
+}
+
+h4.modal-title{
+    padding-left: 225px;
+}
+
+p.colored {
+    color: white;
+}
+
+.modalFormWrapper {
+    padding: 2rem;
+}
+
+.signUp {
+    padding: 10px;
+}
+
+button.changes {
+    margin: auto;
+}
+
+.btnStyling {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 54%;
+    background-color: black;
+    color: white;
+}
+
+.btnStyling:hover {
+    background-color: #f5f0e4
+}
+
+.imgDiff {
+    height: 65%;
+}
+
+.footerImg {
+    padding: 10px;
+}
+
+.Copyrights {
+    color: #fff;
+    padding-left: 90px;
+    font-size: 19px;
+    display: block;
+    width: 50%;
+    padding-top: 50px;
+}
+
