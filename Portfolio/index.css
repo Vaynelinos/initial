@@ -1,0 +1,289 @@
+.nav {
+    padding: 0;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #87c3ce;
+}
+
+.img-top {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container-fluid {
+    background-color: #97d6e1;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.inicio {
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 100%;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40%;
+}
+
+.inicial {
+    background-color: #97d6e1;
+}
+
+.Sobre {
+    text-align: center;
+    display: block;
+    padding-left: 25px;
+    padding-top: 60px;
+    width: 50%;
+}
+
+.btn1 {
+    background-color: #87c3ce;
+    border: solid 1px #01788d;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.UX-UI {
+    padding-left: 18%;
+    display: block;
+    font-size: 120px;
+    color: #7bb2bd;
+    margin: 30px 0 0 0;
+    background-color: #97d6e1;
+    height: 100%;
+}
+
+.section {
+  background-color: #87c3ce;
+  color: #333;
+  width: 95px;
+  height: 55px;
+  margin: 0 608px -100px;
+  padding: 20px 0 120px;
+  border-radius: 7px;
+  position: relative;
+  z-index: 2;
+  top: -80px;
+}
+
+.section02 {
+    background-color: #87c3ce;
+    color: #333;
+    width: 95px;
+    height: 55px;
+    margin: 0 708px -100px;
+    padding: 20px 0 130px;
+    border-radius: 7px;
+    position: relative;
+    z-index: 2;
+    top: -130px;
+  }
+
+.section03 {
+    background-color: #87c3ce;
+    color: #333;
+    width: 95px;
+    height: 55px;
+    margin: 0 808px -100px;
+    padding: 20px 0 140px;
+    border-radius: 7px;
+    position: relative;
+    z-index: 2;
+    top: -190px;
+  }
+
+.section04 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "dorio remory"
+        "minko hasgik";
+    z-index: -2;
+}
+
+@media(max-width: 1020px) {
+
+    .section {
+        background-color: #87c3ce;
+        color: #333;
+        width: 95px;
+        height: 55px;
+        margin: 0 5px -100px;
+        padding: 0px 0px 120px;
+        border-radius: 7px;
+        position: relative;
+        z-index: 2;
+        top: -40px;
+      }
+
+      .section02 {
+        background-color: #87c3ce;
+        color: #333;
+        width: 95px;
+        height: 55px;
+        margin: 0 110px -100px;
+        padding: 0px 0px 125px;
+        border-radius: 7px;
+        position: relative;
+        z-index: 2;
+        top: -40px;
+      }
+
+      .section03 {
+        background-color: #87c3ce;
+        color: #333;
+        width: 95px;
+        height: 55px;
+        margin: 0 215px -100px;
+        padding: 0px 0px 130px;
+        border-radius: 7px;
+        position: relative;
+        z-index: 2;
+        top: -40px;
+      }
+
+    .section-text {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .section-text1 {
+        text-align: center;
+    }
+
+    .Sobre {
+        text-align: center;
+        display: block;
+        padding-left: 25px;
+        padding-top: 60px;
+        width: 100%;
+    }
+
+    .inicio {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 100%;
+    }
+
+    .portfolio {
+        text-align: center;
+        margin: 80px 0 0 0;
+    }
+
+}
+
+.section-text {
+    text-align: center;
+}
+
+.section-text1 {
+    text-align: center;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.portfolio1 {
+    background-color: blue;
+    padding: 0 -250px;
+    max-width: 50%;
+}
+
+
+
+.dorio,
+.remory,
+.minko,
+.hasgik {
+    display: grid;
+    margin: 0 50%;
+    background-color: red;
+    width: 100%;
+    height: 220px;
+    border: solid 1px black;
+}
+
+
+
+.text1 {
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin-top: 10%;
+    top: 22%;
+    position: relative;
+}
+
+.text2 {
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin-top: 10%;
+    top: 35%;
+    position: relative;
+}
+
+.dorio {
+    grid-area: dorio;
+}
+
+.remory {
+    grid-area: remory;
+}
+
+.minko {
+    grid-area: minko;
+}
+
+.hasgik {
+    grid-area: hasgik;
+}
+
+.contact {
+    display: inline-block;
+    align-self: center;
+    width: 60%;
+    top: -100px;
+    margin: 0 21% 1px;
+    background-color: #97d6e1;
+}
+
+.btn {
+    background-color: #87c3ce;
+    margin-bottom: 10px;
+    border: solid 1px #01788d;
+}
+
+.form-ce {
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    margin: 100px 0 0 0;
+    padding: -60px 0 0 0;
+    height: 70px;
+}
+
+.colorum {
+    background-color: #87c3ce;
+    top: -100px;
+    position: relative;
+    height: 250px;
+    margin-bottom: 0;
+    z-index: -2;
+}
